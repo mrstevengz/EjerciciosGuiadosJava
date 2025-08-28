@@ -26,5 +26,14 @@ public class Main {
         cuentaBancaria.withdraw(1000);
         System.out.println(cuentaBancaria.getSaldo());
 
+        //Ejercicio 4
+
+        Estudiante estudiante = new Estudiante();
+        estudiante.nombre = "Steven Sequeira";
+        estudiante.matricula = "24010446";
+        estudiante.promedio = 99.99;
+
+        System.out.println(estudiante.getPromedio());
+
     }
 }
