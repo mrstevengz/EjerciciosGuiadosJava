@@ -17,5 +17,14 @@ public class Main {
         libro.numPaginas = 100;
 
         System.out.println(libro.descripcionLibros());
+
+        //Ejercicio 3
+
+        CuentaBancaria cuentaBancaria = new CuentaBancaria(10000);
+        cuentaBancaria.deposit(50);
+        System.out.println(cuentaBancaria.getSaldo());
+        cuentaBancaria.withdraw(1000);
+        System.out.println(cuentaBancaria.getSaldo());
+
     }
 }
